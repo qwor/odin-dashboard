@@ -151,6 +151,7 @@ button#notification {
     padding-top: 1rem;
     padding-bottom: 1rem;
     gap: 4rem;
+    box-shadow: 0 10px 10px -10px gray;
 }
 
 .sticky-panel button {
@@ -203,6 +204,7 @@ section h2 {
 .card {
     background-color: var(--clr-light);
     border-radius: var(--card-radius);
+    box-shadow: 1px 1px 5px gray;
 }
 
 .card.card-project {
@@ -242,7 +244,7 @@ section h2 {
     justify-content: flex-end;
 }
 
-.card .buttons :hover {
+button:hover {
     cursor:pointer;
 }
 
